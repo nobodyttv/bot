@@ -5,7 +5,7 @@ from utils import make_film_message
 from config import BOT_TOKEN
 
 async def start(update: Update, context: CallbackContext):
-    await update.message.reply_text("🎬 خوش آمدی به پلینما!\n\nنام فیلم یا سریال رو بفرست:")
+    await update.message.reply_text("🎬welocme to playnema:")
 
 async def handle_text(update: Update, context: CallbackContext):
     query = update.message.text
